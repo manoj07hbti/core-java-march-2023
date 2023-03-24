@@ -9,5 +9,6 @@ public class DemoGit {
 
         System.out.println("This is second commit ");
         System.out.println("This is second commit ");
+        System.out.println("This is Third commit ");
     }
 }
