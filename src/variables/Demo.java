@@ -8,6 +8,7 @@ public class Demo {
      System.out.println("sub "+sub);
       int c=40;
       int d=50;
+
       int add=c+d;
       System.out.println("add "+add);
        double e=40;
