@@ -5,10 +5,10 @@ public class Swapping {
         System.out.println("Before Swapping");
         int a=10;
         int b=15;
-        System.out.println("Value of a:- "+a);
-        System.out.println("Value of b:- "+b);
-        System.out.println("After Swapping");
-        System.out.println("Value of a:- "+b);
-        System.out.println("Value of b:- "+a);
+        a=a+b;// its mean value a=35
+        b=a-b;//its mean value b= 10
+        a=a-b;//its mean Value a=15
+        System.out.println("Swap Variable a:- "+a);
+        System.out.println("Swap variable b:- "+b);
     }
 }

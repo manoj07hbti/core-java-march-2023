@@ -1,6 +1,6 @@
 package assignment1;
 
-public class FormulaClass {
+public class Formula {
     public static void main(String[] args) {
         int a=10;
         int b=12;
