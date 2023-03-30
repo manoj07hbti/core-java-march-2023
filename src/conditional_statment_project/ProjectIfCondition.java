@@ -17,6 +17,11 @@ public class ProjectIfCondition {
                 if (Jeans<6000) {
                     System.out.println("This Product is Too Costly");
 
+                    Jeans=5000;
+                    if (Jeans>4000) {
+                        System.out.println("This Product on Averange Price");
+                    }
+
                     String CountryName;
                     CountryName="India";// Checking Nationality of Person.
                     if(CountryName=="India"){
