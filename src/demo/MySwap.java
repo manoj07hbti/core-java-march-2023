@@ -10,6 +10,15 @@ public class MySwap {
       System.out.println("After swapping");
         System.out.println("x: "+y);
         System.out.println("y: "+x);
+int a=500;
+int b=400;
+int add=a+b;
+System.out.println("After addition "+add);
+double p=300.25;
+double q=234.23;
+double sub=p-q;
+System.out.println("After subtraction "+sub);
+
 
     }
 
