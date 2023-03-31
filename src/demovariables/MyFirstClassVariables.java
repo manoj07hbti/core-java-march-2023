@@ -7,5 +7,6 @@ public class MyFirstClassVariables {
         int b=10;
         int add= a+b;
         System.out.println("add of a and b "+add);
+
     }
 }
