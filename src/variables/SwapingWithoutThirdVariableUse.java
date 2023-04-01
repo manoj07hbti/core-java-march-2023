@@ -1,3 +1,5 @@
+package variables;
+
 public class SwapingWithoutThirdVariableUse {
 
     public static void main(String[] args) {
