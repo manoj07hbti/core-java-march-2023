@@ -34,12 +34,26 @@ public class Assign_IfCondition {
                         if (Big_city == "London") {
                             System.out.println("person not indian: " + Big_city);
 
-                            Big_city = "London";
-                            if (Big_city=="Kolkata"){
-                                System.out.println("person not indian: "+Big_city);
+                            String country;
+                            country = "INDIA";
+                            if (country != "shrilanka") {
+                                System.out.println("person does not belong to shrilanka");
+
+                                int age;
+                                age = 18;// minimum age should be greater than 18 years old person
+                                if (age != 11) {System.out.println("person is not do voting");
+
+
+                                            Big_city = "London";
+                                    if (Big_city == "Kolkata") {
+                                        System.out.println("person not indian: " + Big_city);
+
+
+                                    }
+                                }
+
+
                             }
-
-
                         }
                     }
                 }
