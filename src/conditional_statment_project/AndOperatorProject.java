@@ -8,35 +8,34 @@ public class AndOperatorProject {
     Science_Marks=60;
     Stream="Science";
 
-    if(Science_Marks<65 & Stream=="Science"){
+    if(Science_Marks>=60 & Stream=="Science"){
         System.out.println("Student Get 60% In Sicence Stream");
     }else {
         System.out.println("Student did not get 60% in Science Stream..");
     }
 
         // Logical Operator Condition 2-- True--False= False
-        int Arts_Marks;
-    Arts_Marks=58;
+    Science_Marks=61;
     Stream="Arts";
-    if (Arts_Marks>55 & Stream=="Science"){
+    if (Science_Marks>=60 & Stream=="Science"){
         System.out.println("Student Get 60 % in Science Stream");
     }else {
         System.out.println("This Student did not get 60 % in Science Stream");
     }
 
       // Logical Operator Condition 3-- False--True= False
-     Science_Marks=60;
+     Science_Marks=59;
      Stream="Science";
-     if(Science_Marks>63 & Stream=="Science"){
+     if(Science_Marks>=60 & Stream=="Science"){
         System.out.println("This student choose to science stream..");
     }else {
         System.out.println("This Student does not choose this Stream.");
     }
 
     // Logical Operator Condition 4-- False--False= False
-    Arts_Marks=55;
+    Science_Marks=55;
      Stream="Arts:";
-     if (Arts_Marks>60 & Stream=="Science"){
+     if (Science_Marks>=60 & Stream=="Science"){
          System.out.println("THis Student choose Arts Stream..");
      }else {
          System.out.println("This Student did not choose Arts Stream..");
