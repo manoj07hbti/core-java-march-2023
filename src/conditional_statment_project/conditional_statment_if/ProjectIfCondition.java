@@ -1,4 +1,4 @@
-package conditional_statment_if;
+package conditional_statment_project.conditional_statment_if;
 
 public class ProjectIfCondition {
     public static void main(String[]args){
