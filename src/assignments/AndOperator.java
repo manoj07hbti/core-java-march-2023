@@ -32,7 +32,7 @@ public class AndOperator {
         marks_percent=55;
         city="HP";
         if (marks_percent>=60 & city=="UP"){
-            System.out.println("Student is eligible for apply in DU: ");
+            System.out.println("Student is eligible for apply in DU:");
         }else {
             System.out.println("Student is not eligible for apply in DU: FALSE & FALSE = FALSE");
         }

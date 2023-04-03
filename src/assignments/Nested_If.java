@@ -12,7 +12,7 @@ public class Nested_If {
             } else {
                 System.out.println("candidate is not eligible for primary education addmission");
             }
-            String id; // id is mandatory for addmission
+            String id; //id is mandatory for addmission
             id = "ADHAR CARD";
             if (id == "ADHAR CARD") {
                 if (age >= 5) {
