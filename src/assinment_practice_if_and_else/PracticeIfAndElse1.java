@@ -42,9 +42,9 @@ public class PracticeIfAndElse1 {
 
 
                 int age =18;
-                if(age>=18){
-                    System.out.println("person is eligible for voting"+age);
-                    {else{
+                if(age>=18) {
+                    System.out.println("person is eligible for voting" + age);
+                }else{
                         System.out.println("person is not eligible for voting"+age);
                     }
 
