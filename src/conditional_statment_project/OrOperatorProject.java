@@ -32,7 +32,7 @@ public class OrOperatorProject {
             System.out.println("Did not recognize laptop configuration");
         }
 
-        // Or Operator Condition 3rd- True--False= True
+        // Or Operator Condition 4th- False--False= False
 
         Brand="Lenovo";
 
