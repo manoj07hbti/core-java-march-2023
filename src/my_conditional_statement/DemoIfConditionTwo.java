@@ -31,7 +31,7 @@ public class DemoIfConditionTwo {
             System.out.println("Person is Indian");
         }
         country="USA";
-        if(country=="India"){
+        if(country=="USA"){
             System.out.println("Person is not Indian");
         }
 
