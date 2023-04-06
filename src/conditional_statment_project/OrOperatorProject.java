@@ -4,11 +4,11 @@ public class OrOperatorProject {
     public static void main(String[] args) {
 
         String Brand;
-        int RAM;
+        int ram;
         Brand="IBM";
-        RAM=8;
+        ram=8;
         // Or Operator Condition 1st- True--True= True
-        if (RAM>=8 || Brand=="IBM"){
+        if (ram>=8 || Brand=="IBM"){
             System.out.println("IBM laptop with comes approx 8GB RAM");
         }else {
             System.out.println("Did not recognize laptop configuration");
@@ -16,8 +16,8 @@ public class OrOperatorProject {
 
         // Or Operator Condition 2nd- False--True= True
 
-        RAM=4;
-        if(RAM>=6 || Brand=="IBM"){
+        ram=4;
+        if(ram>=6 || Brand=="IBM"){
             System.out.println("IBM laptop with comes approx 8GB RAM");
         }else {
             System.out.println("Did not recognize laptop configuration");
@@ -25,8 +25,8 @@ public class OrOperatorProject {
 
         // Or Operator Condition 3rd- True--False= True
 
-        RAM=6;
-        if (RAM>=5 || Brand=="Dell"){
+        ram=6;
+        if (ram>=5 || Brand=="Dell"){
             System.out.println("IBM laptop with comes approx 8GB RAM");
         }else {
             System.out.println("Did not recognize laptop configuration");
@@ -36,7 +36,7 @@ public class OrOperatorProject {
 
         Brand="Lenovo";
 
-        if(RAM>=12 || Brand=="IBM"){
+        if(ram>=12 || Brand=="IBM"){
             System.out.println("IBM laptop with comes approx 8GB RAM");
         }else {
             System.out.println("Did not recognize laptop configuration");
