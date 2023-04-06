@@ -1,6 +1,6 @@
 package loops;
 
-public class IncrementDecrementProject {
+public class IncrementDecrementWhileForUsingProject {
     public static void main(String[] args) {
         //Using For Loop Command & Making Increment project
 
