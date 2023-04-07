@@ -8,7 +8,7 @@ public class FiveTable {
             System.out.println("for loop 5X"+k+ "=" + num*k);
         }
 
-       //write code of 5 table using while loop
+       // write code of 5 table using while loop
 
         int k=1;
         while (k<=10){
