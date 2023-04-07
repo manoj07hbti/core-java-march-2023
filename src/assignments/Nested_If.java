@@ -21,6 +21,7 @@ public class Nested_If {
                     System.out.println("candidate is not eligible without id for primary education addmission");
 
                 }
+                //
             }
 
         }
