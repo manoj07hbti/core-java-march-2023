@@ -10,7 +10,7 @@ public class MyLoopsOddNUmber {
 //if i%2 is not equal to zero, the number is odd
             if (i%2!=0)
             {
-                System.out.print(i + " ");
+                System.out.println(i + " ");
             }
         }
     }
