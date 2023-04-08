@@ -18,7 +18,7 @@ public class Table_doWhileLoop {
             i++;
         }
         while (i<=10);// declare limits for applied loop
-        // here we close  do while loop by ; symbol
+        //here we close  do while loop by ; symbol
     }
 
 }
