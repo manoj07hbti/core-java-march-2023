@@ -4,40 +4,19 @@ public class even_number_and_Odd_no_for_while_loops {
 
     public static void main(String[] args) {
 
-        // Print Even and Odd in For Loops;
+        // for loop even and odd no for_loop;
 
-        for (int p=100; p>=0; p--){
-            System.out.println("even no"+p+"="+p);
-            p--;
+        int number=100;
+        System.out.println("even number from 1 to"+number+" ");
+        for (int p=1; p<=number; p++){
+
+        // logic to check if the number even or not
+        // if p%2 is equal to zero the number is even
+            if (p%2==0){
+                System.out.println("even numebr"+p+" ");
+            }else {
+                System.out.println("odd number"+p);
+            }
         }
-
-
-        for (int D=99; D>=0; D--) {
-            System.out.println("Odd NO" + D + "=" + D);
-            D--;
-        }
-
-        // Print Even and Odd in while loops;
-
-        int v=100;
-        while (v>=0){
-            System.out.println("Even no"+v+"="+v--);
-            v--;
-        }
-
-        int c=99;
-        while (c>=0){
-            System.out.println("Odd no"+c+"="+c--);
-            c--;
-        }
-
-
-
-
-
-
-
     }
-
-
 }
