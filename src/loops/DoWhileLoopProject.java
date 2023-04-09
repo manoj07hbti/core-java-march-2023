@@ -27,13 +27,7 @@ public class DoWhileLoopProject {
         number=100;
         int k=1;
         do {
-            System.out.println("Even & Odd Number 1 to 100");
-            k++;
-            if (number%2==0){
-                System.out.println("Even Number"+k);
-            }else {
-                System.out.println("Odd Number"+k);
-            }
+            System.out.println("Even & Odd Number 1 to 100"+k%2);
             }while (k<=number);
 
     }
