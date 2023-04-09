@@ -9,8 +9,8 @@ public class Programe1 {
         }
 
         // divisible by 7 and it should also tell whether given number is even or odd.
-        for (int i = 1; i < 100; i++) {
-            if (i>7) {
+        int i=100;
+            if (i>1) {
                 System.out.println("Given Number is Odd");
                 if (i % 7 == 0) {
                     System.out.println("Odd Number" + i + ",");
@@ -23,6 +23,6 @@ public class Programe1 {
         }
 
     }
-}
+
 
 
