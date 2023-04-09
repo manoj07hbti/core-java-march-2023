@@ -17,6 +17,7 @@ public class even_number_and_Odd_no_for_while_loops {
             }else {
                 System.out.println("odd number"+p);
             }
+
         }
     }
 }
