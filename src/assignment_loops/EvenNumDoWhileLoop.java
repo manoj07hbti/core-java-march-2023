@@ -8,6 +8,6 @@ public class EvenNumDoWhileLoop {
         do {if (j%2==0) //check condition of even num
             System.out.println("even num do while loop " +j);
             j++;
-        }while (j<=100); // declare last value or limit
+        }while (j<=100); // declare last value or limits
     }
 }
