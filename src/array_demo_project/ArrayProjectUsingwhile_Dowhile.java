@@ -21,16 +21,6 @@ public class ArrayProjectUsingwhile_Dowhile {
 
         // Using Advance While loop for Printing Array Data:-=====================================
 
-        while(){
-            System.out.println("Printing Country Name"+" = ");
-        }
-
-        // Using Advance  Do While loop for Printing Array Data:-=====================================
-
-        do {
-            System.out.println("Printing Distance"+ " = ");
-        }while ();
-
         }
     }
 
