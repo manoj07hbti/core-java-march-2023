@@ -12,6 +12,7 @@ public class EvenNumberLoops {
             //if i%2 is equal to zero , the number is even
             if(i%2==0)
             {
+                ///   //         ///      //     ///
                 System.out.println(i+"");
             }
         }
