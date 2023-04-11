@@ -1,4 +1,4 @@
-package assignment1;
+package formula_project;
 
 public class Formula {
     public static void main(String[] args) {
