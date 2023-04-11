@@ -5,30 +5,39 @@ public class DoWhileLoopProject {
 
         // Using Do while Loop Printing Table of 5;
 
-        int number=5;
-        int i=1;
+        int number = 5;
+        int i = 1;
         do {
-            System.out.println(" 5x"+i+"="+number*i);
+            System.out.println(" 5x" + i + "=" + number * i);
             i++;
-        }while(i<=10);
+        } while (i <= 10);
 
         // Using Do while Loop Printing Table of 10;
 
-        number=10;
-        int j=1;
+        number = 10;
+        int j = 1;
         do {
-            System.out.println("10x"+j+"="+number*j);
+            System.out.println("10x" + j + "=" + number * j);
             j++;
-        }while (j<=10);
+        } while (j <= 10);
 
 
-        // Using Do while Loop & Condition If & Else Printing Even & Odd Number ;
+        // Using Do while Loop &  If Condition  Printing Even Number ;
 
-        number=100;
-        int k=1;
+        int k = 1;
         do {
-            System.out.println("Even & Odd Number 1 to 100"+k%2);
-            }while (k<=number);
+            if (k % 2 == 0)
+                System.out.println("Even num " + k);
+            k++;
+        } while (k < 100);
+
+        // Using Do while Loop &  If Condition  Printing Odd Number ;
+        int l = 1;
+        do {
+            if (l % 2 != 0)
+                System.out.println("Odd num " + l);
+            l++;
+        } while (l < 100);;
 
     }
 }
