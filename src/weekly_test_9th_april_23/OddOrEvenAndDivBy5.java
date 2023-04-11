@@ -5,19 +5,17 @@ public class OddOrEvenAndDivBy5 {
         // using for loop
         int j = 123;
         for (j = 123; j <= 234; j++) {
-            // check num is odd or even
+            // check num is odd or even by nested if condition
             if (j % 2 == 0) {
-                System.out.println("num is even "+j);
+                if (j%5==0)
+                System.out.println("num is even and div by 5: " +j);
 
 
             }else {
-                System.out.println("num is Odd "+j);
+                if (j%5==0)
+                System.out.println("num is Odd and div by 5: " +j);
             }
-               // check num is div by 5
-                if (j % 5 == 0) {
-                    // print only those num which are divisible by 5
-                    System.out.println("which num is also divisible by 5 that is : " + j);
-                }
+
         }
     }
 }
