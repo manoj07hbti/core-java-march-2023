@@ -3,7 +3,7 @@ package array;
 public class CountryArray {
     public static void main(String[]args){
 
-        String [] cont={"INDIA","JAPAN","CHINA","PAKISTAN","RUSSIA","UKRAIN"};
+        String cont [] ={"INDIA","JAPAN","CHINA","PAKISTAN","RUSSIA","UKRAIN"};
 
 
 
