@@ -47,10 +47,12 @@ public class DemoArray {
         }
 
      double prices[] ={2321.34,4543.324,565.32, 655.3,56,766.8};
+       int j=0;
 
         for(double var : prices){
 
-            System.out.println("printing in advanced loop "+var);
+            System.out.println("printing in advanced loop "+var+ " at Index "+j);
+            j++;
         }
 
         for (int i=0; i<prices.length; i++){
