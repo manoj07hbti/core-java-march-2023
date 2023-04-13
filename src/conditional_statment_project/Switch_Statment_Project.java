@@ -11,7 +11,7 @@ public class Switch_Statment_Project {
         //              break;
 
 
-        int month=15;
+        int month=11;
 
         switch (month){
 
