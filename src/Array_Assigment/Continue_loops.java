@@ -6,10 +6,9 @@ public class Continue_loops {
         String Language[]={"Java","python","C","C++","Dotnet","HTML","Golang","Gerkin","VB"};
         for (String var: Language){
             if (var=="HTML"){
-                System.out.println("Language is backend Language");
                 continue;
-
             }
+            System.out.println("Language is backend Language:-"+var);
         }
 
     }
