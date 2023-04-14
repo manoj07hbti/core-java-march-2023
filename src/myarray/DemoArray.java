@@ -14,11 +14,14 @@ String country5="England";
 
 // printing array element based on index  varName[INDEX];
 
-        System.out.println("Print  array: "+countries[4]);
-// printing all element of array
-        for (int i=0; i<countries.length; i++){
-            System.out.println("printing all array:  "+countries[i]);
-        }
 
+        System.out.println("Printing data: "+ countries[0]);
+
+        // printing all element of array
+
+        for (int i=0; i<countries.length; i++){
+
+            System.out.println("Printing with loop "+countries[i]);
+        }
     }
 }
