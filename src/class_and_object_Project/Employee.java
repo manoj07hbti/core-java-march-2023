@@ -1,6 +1,6 @@
 package class_and_object_Project;
 
-public class Employe {
+public class Employee {
     String company_name="Wipro";
     String name="Amit";
     int age=25;
@@ -12,7 +12,7 @@ public class Employe {
         // Printing Syntax Using Class object=====================
         //ClassName objName= new ClassName();
 
-        Employe obj1= new Employe();
+        Employee obj1= new Employee();
         System.out.println("Printing Employe Details :- ");
         System.out.println("Company Name:- "+obj1.company_name);
         System.out.println("Employe Name:- "+obj1.name);
