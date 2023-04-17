@@ -7,6 +7,17 @@ public class Book {
     int pages=500;
     String writerName="Games Gosling";
 
+    // Syntax : access_specifier return_type  method_name (parameter) {CODE..}
+
+    public void readMethod(){
+
+        System.out.println("This is Read Method of Book Class...");
+    }
+    public void writeMethod(){
+
+        System.out.println("This is Write Method of Book Class ");
+    }
+
     public static void main(String[] args) {
     //ClassName objName= new ClassName();
 
@@ -18,8 +29,12 @@ public class Book {
 
         Book obj3= new Book();
         System.out.println("Printing obj3 "+obj3.name +" Writer "+obj3.writerName+ " Pages "+obj3.pages);
+// step 1
+        Book obj= new Book();
 
-
+//step 2
+        obj.readMethod();// call read method
+        obj.writeMethod();// call write method
     }
 
 
