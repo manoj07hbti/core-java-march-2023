@@ -6,7 +6,7 @@ public class Factorial_given_number {
         int number=9;
 
         for (k=1;k<number;k++){
-            fact=fact*9;
+            fact=fact*k;
         }
         System.out.println("factorial of number"  +number+ " is "+fact);
 
