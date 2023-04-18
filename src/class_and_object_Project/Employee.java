@@ -7,6 +7,19 @@ public class Employee {
     String designation="Backend Developer";
     String working_shift="Day";
 
+    //Creating Method and call==========================================
+    // syntax:- access_specifier return_type method_name (parameter){Code...}  using for Create Method=================
+
+    public void workMethod(){
+        System.out.println("This is Employee Work_Method Class");
+    }
+    public void eatMethod(){
+        System.out.println("This is Employee Eat_Method Class");
+    }
+    public void sleepMethod(){
+        System.out.println("This is Employee Sleep_Method Class");
+    }
+
 
     public static void main(String[] args) {
         // Printing Syntax Using Class object=====================
@@ -19,6 +32,13 @@ public class Employee {
         System.out.println("Age:- "+obj1.age);
         System.out.println("Designation:- "+obj1.designation);
         System.out.println("Shift:- "+obj1.working_shift);
+
+        //Creating new Object & Using method Class for Printing ======================================================
+
+        Employee obj= new Employee();
+        obj.workMethod();
+        obj.eatMethod();
+        obj.sleepMethod();
 
 
 
