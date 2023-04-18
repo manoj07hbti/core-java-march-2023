@@ -9,35 +9,31 @@ public class April_16_Test {
         for (int i = 123; i <= 234; i++) {
 
             //  % is used for remainder
-            if (i % 2 == 0) {
-                System.out.println("EVEN " + i);
-            } else {
-                System.out.println("ODD " + i);
+            if (i % 5 == 0) {
+                if(i%2 ==0) {
+                    System.out.println("EVEN NUMBER " + i + " DIVISIBLE BY 5");
+                }else {
+                    System.out.println("ODD NUMBER " + i +" DIVISIBLE BY 5");
+                }
             }
         }
-        for (int j = 123; j <= 234; j++) {
-            if (j % 5 == 0)
-                System.out.println(+j + " DIVISIBLE BY 5");
-        }
-
 
 
         //NUMBER IS PRIME OR NOT
 
-            int value =52;
-            boolean weather= false;
-            for (int h=2; h<=value;h++){
+            int value =17;
+            boolean number= false;
+            for (int h=2; h<value;h++){
                 if (value % h ==0){
-                    weather =true;
+                    number =true;
                     break;
                 }
             }
-            if (!weather)
-                System.out.println("\n"+value+ " is not  prime number");
+            if (!number)
+                System.out.println("\n"+value+ " is prime number");
             else
-                System.out.println("\n" +value+ " is  prime number");
-
-        }
+                System.out.println("\n" +value+ " is not  prime number");
+    }
 }
 
 
