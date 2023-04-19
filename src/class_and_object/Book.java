@@ -9,6 +9,9 @@ public class Book {
 
     // Syntax : access_specifier return_type  method_name (parameter) {CODE..}
 
+    void mymethod(){
+        System.out.println("This is Default method of Book Class...");
+    }
     public void readMethod(){
 
         System.out.println("This is Read Method of Book Class...");

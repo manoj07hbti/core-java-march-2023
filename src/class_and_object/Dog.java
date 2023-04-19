@@ -23,6 +23,9 @@ public class Dog {
 // step 2:
         obj1.run();
         obj1.barkMethod();
+
+        Book obj = new Book();
+        obj.mymethod();
     }
 
 
