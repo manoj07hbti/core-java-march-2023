@@ -1,10 +1,11 @@
 package class_and_object;
 
 public class Doctor_Default {
+
+    String specialist="Neurologist";
     String name="Dr. Mathur";
     int age=30;
     String qualification="MBBS";
-    String specialist="Neurologist";
 
     public static void main(String[] args) {
         Doctor_Default obj1= new Doctor_Default();
