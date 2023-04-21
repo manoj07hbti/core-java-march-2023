@@ -1,4 +1,4 @@
-package assignment;
+package assignment.loops;
 
 public class FORloop {
     public static void main(String[] args){

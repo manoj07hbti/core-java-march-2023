@@ -1,6 +1,5 @@
 package assignment;
 
-import com.sun.xml.internal.bind.v2.runtime.output.SAXOutput;
 
 public class SwappingAssignment {
     public static void main(String[] args){

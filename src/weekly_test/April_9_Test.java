@@ -1,4 +1,4 @@
-package weekly_test_9_april;
+package weekly_test;
 
 public class April_9_Test {
 
@@ -21,10 +21,6 @@ public class April_9_Test {
                 System.out.println(+i +" DIVISIBLE BY 5");
         }}
 
-
-
-        }
-
-
     }
+}
 

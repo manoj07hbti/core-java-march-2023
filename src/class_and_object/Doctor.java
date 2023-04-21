@@ -18,11 +18,5 @@ public class Doctor {
 
         Doctor obj3 =new Doctor();
         System.out.println("\nprinting object 3 of Doctor class\n" +"NAME : "+obj3.name +"\nID : "+obj3.id +"\nFIELD : "+obj3.field +"\nHOSPITAL : "+obj3.hospital +"\nAGE : "+obj3.age);
-
     }
-
-
-
-
-
 }

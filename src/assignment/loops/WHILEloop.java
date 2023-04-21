@@ -1,4 +1,4 @@
-package assignment;
+package assignment.loops;
 
 public class WHILEloop {
     public static void main(String[] args){

@@ -1,6 +1,6 @@
 package assignment;
 
-public class ANDcondition {
+public class AndOperator {
     public static void main(String[] args) {
         int marks;
         String stream;
