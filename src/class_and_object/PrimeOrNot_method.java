@@ -1,7 +1,5 @@
 package class_and_object;
 
-import com.sun.jdi.PathSearchingVirtualMachine;
-
 public class PrimeOrNot_method {
     public void primeornot(){
         int a=2;
