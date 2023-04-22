@@ -2,6 +2,7 @@ package weekly_test_9_april;
 
 public class Programe3 {
     // Write a programe to find given number is prime or not===============================
+    //Prime number condition is this will divsable by-1 & also itself=========================
         public static void main(String[] args) {
             int num =23;
             int count=0;
