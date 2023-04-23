@@ -1,4 +1,4 @@
-package weekly_test_9_april;
+package weekly_test;
 
 public class Programe3 {
     // Write a programe to find given number is prime or not===============================
