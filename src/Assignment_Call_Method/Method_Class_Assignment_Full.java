@@ -10,10 +10,10 @@ public class Method_Class_Assignment_Full {
     public void even_odd(){
         int value=9;
             if (value % 2==0){
-                System.out.println(" This number is even: ");
+                System.out.println(" This number is prime: ");
 
             }else {
-                System.out.println(" This number is Odd: ");
+                System.out.println(" This number is odd number: ");
             }
         }
 
