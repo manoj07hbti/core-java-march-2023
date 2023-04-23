@@ -1,6 +1,6 @@
 package Test_23_April_2023;
 
-public class Between_8to160_divisble_11 {
+public class Between_8to160_divisble_by_11 {
     public static void main(String[] args) {
         int num =160;
         System.out.println(" even number from 8 to "+num+" ");
