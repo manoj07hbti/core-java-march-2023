@@ -13,24 +13,24 @@ public class April_23_test {
         }
     }
 
-    public void primeornot(){
-        int num=17;
-        boolean value=false;
-        for(int j=2;j<num;j++) {
-            if (num % j == 0) {
-                value = true;
-                break;
+    public void primeinrange(){
+        int min=10,max=20,flag=0;
+        for(int n=min;n<=max;n++){
+            for(int i=2;i<n;i++){
+                if(n%i==0){
+                    flag=1;
+                    break;
+                }
             }
+            if(flag==0){
+                System.out.println(n +"");
+            }
+            flag=0;
         }
-        if(!value)
-            System.out.println("\n"+num +" IS PRIME NUMBER");
-        else
-            System.out.println("\n"+num +" IS NOT PRIME NUMBER");
-
     }
     public static void main(String[] args) {
         April_23_test obj=new April_23_test();
         obj.evenorodd();
-        obj.primeornot();
+        obj.primeinrange();
     }
 }
