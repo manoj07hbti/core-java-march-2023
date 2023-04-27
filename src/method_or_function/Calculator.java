@@ -4,6 +4,7 @@ package method_or_function;
 public class Calculator {
 
     public void addition() {
+
         int a = 80;
         int b = 40;
         int sum = a + b;
