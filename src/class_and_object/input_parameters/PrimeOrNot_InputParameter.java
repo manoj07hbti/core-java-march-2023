@@ -1,7 +1,6 @@
-package class_and_object;
-public class PrimeOrNot_method {
-    public void primeornot(){
-        int num=9;
+package class_and_object.input_parameters;
+public class PrimeOrNot_InputParameter {
+    public void primeornot(int num){
         boolean value=false;
         for(int i=2;i<num;i++) {
             if (num % i == 0) {
@@ -18,7 +17,7 @@ public class PrimeOrNot_method {
     }
 
     public static void main(String[] args) {
-        PrimeOrNot_method obj=new PrimeOrNot_method();
-        obj.primeornot();
+        PrimeOrNot_InputParameter obj=new PrimeOrNot_InputParameter();
+        obj.primeornot(13);
     }
 }
