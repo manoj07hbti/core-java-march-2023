@@ -1,4 +1,4 @@
-package class_and_object;
+package class_and_object.creating_Method;
 
 public class Calculator_with_Method {
     public void add(){

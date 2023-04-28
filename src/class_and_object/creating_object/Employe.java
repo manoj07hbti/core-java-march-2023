@@ -1,4 +1,4 @@
-package class_and_object;
+package class_and_object.creating_object;
 
 public class Employe {
     //class properties are predefined in default constructor

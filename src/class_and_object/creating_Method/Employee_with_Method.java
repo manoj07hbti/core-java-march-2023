@@ -1,4 +1,4 @@
-package class_and_object;
+package class_and_object.creating_Method;
 
 public class Employee_with_Method {
     // CREATING NEW METHOD

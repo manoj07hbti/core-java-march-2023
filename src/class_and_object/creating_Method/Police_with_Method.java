@@ -1,4 +1,4 @@
-package class_and_object;
+package class_and_object.creating_Method;
 
 public class Police_with_Method {
     //creating new method

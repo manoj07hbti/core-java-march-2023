@@ -1,4 +1,4 @@
-package class_and_object;
+package class_and_object.creating_Method;
 
 public class Doctor_with_Method {
     // CREATING NEW METHOD
@@ -7,8 +7,7 @@ public class Doctor_with_Method {
     public void examineMethod(){
         System.out.println("DOCTOR EXAMINE THEIR PATIENTS");
     }
-    public void medicineMethod(){
-        System.out.println("DOCTOR GIVES A MEDICINE TO THE PATIENT");
+    public void medicineMethod(){System.out.println("DOCTOR GIVES A MEDICINE TO THE PATIENT");
     }
     public void feesMethod(){
         System.out.println("DOCTOR CHARGES A FEES TO THEIR PATIENTS");
