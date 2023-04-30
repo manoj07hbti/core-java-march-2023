@@ -12,16 +12,15 @@ public class ArrayProjectUsingwhile_Dowhile {
         }
 
         // Using Do While loop for Printing Array Data:-========================================
-        int Distance[] = {15, 14, 19, 22, 36, 45};
+        int distance[] = {15, 14, 19, 22, 36, 45};
         int j = 0;
         do {
-            System.out.println("Printing Distance" + " = " + Distance[j] + " K.m");
+            System.out.println("Printing Distance" + " = " + distance[j] + " K.m");
             j++;
-        } while (j < Distance.length);
+        } while (j < distance.length);
 
         // Using Advance While loop for Printing Array Data:-=====================================
-        // }
-        for (int var : Distance) {
+        for (int var : distance) {
             System.out.println("Printing Distanace" + "=" + var);
         }
     }
