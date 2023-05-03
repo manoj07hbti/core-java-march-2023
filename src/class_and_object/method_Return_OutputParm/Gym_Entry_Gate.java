@@ -16,7 +16,7 @@ public class Gym_Entry_Gate {
 
     public static void main(String[] args) {
         Gym_Entry_Gate obj=new Gym_Entry_Gate();
-        if(obj.checkGatePassword("884")){
+        if(obj.checkGatePassword("8894")){
             String welcomeMsg= obj.welcomeScreen();
             System.out.println(welcomeMsg);
         }

@@ -6,7 +6,7 @@ public class Calculator_OutputMethod {
         return sum;
     }
     public int sub(int a,int b){
-        int sub=a=b;
+        int sub=a+b;
         return sub;
     }
     public int multi(int a,int b){
