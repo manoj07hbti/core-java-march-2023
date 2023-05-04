@@ -22,6 +22,20 @@ public class Output_Parameter_Project {
             return false;
         }
     }
+    //Project 3 :-============================
+
+    // Write a program to print 1 to 100 number & also find the Even Number & Odd Number using Output parameter method
+
+    public boolean findNumber(int number){
+        if (number%2==0){
+            return true;
+        }else {
+            return false;
+        }
+    }
+
+
+
     public static void main (String[]args){
         Output_Parameter_Project obj = new Output_Parameter_Project();
         int cube = obj.makeCube(12);
@@ -33,6 +47,16 @@ public class Output_Parameter_Project {
             System.out.println("Person is eligible for voting...");
         }else {
             System.out.println("Please enter the valid person details... ");
+
+            // 3rd Program Output========================================
+            for (int i=1;i<=100;i++){
+                boolean output=obj.findNumber(i);
+                if(output){
+                    System.out.println("Even Number :- "+i);
+            }else {
+                    System.out.println("Odd Number :- "+i);
+                }
+            }
         }
     }
 }
