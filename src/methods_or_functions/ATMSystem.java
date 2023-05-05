@@ -28,7 +28,7 @@ public class ATMSystem {
     public static void main(String[] args) {
         ATMSystem obj= new ATMSystem();
 
-       if( obj.checkPassword("1234")){
+       if( obj.checkPassword("123")){
 
           String msg= obj.welcomeScreen();
            System.out.println(msg);
