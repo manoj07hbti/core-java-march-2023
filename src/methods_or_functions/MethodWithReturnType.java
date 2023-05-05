@@ -19,6 +19,16 @@ public class MethodWithReturnType {
         return fullname;
     }
 
+    public boolean findEven(int number){
+
+        if(number%2 ==0){
+            return true;
+        }else {
+            return false;
+        }
+
+    }
+
     public static void main(String[] args) {
 
         MethodWithReturnType obj = new MethodWithReturnType();
@@ -29,7 +39,26 @@ public class MethodWithReturnType {
         String name = obj.addSurName("Rahul");
 
         System.out.println("Full name is " + name);
+// FIRST WAY
 
+        for(int i=1; i<=100; i++) {
+            boolean output = obj.findEven(i);
+
+            if (output) {
+                System.out.println("Even Number "+i);
+            } else {
+                System.out.println("Odd Number "+i);
+            }
+        }
+// SECOND WAY
+
+        if(obj.findEven(2)){
+            System.out.println("Even Number");
+        }else {
+            System.out.println("Odd Number ");
+        }
+// DIRECTLY CALL METHOD AND USE
+        System.out.println(obj.makeCube(3));
     }
 
 
