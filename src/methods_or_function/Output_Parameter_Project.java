@@ -45,14 +45,13 @@ public class Output_Parameter_Project {
             System.out.println("Person is eligible for voting...");
         }else {
             System.out.println("Please enter the valid person details... ");
-
-            // 3rd Program Output========================================
-            for (int i=1;i<=100;i++){
-                if(obj.findNumber(i)){
-                    System.out.println("Even Number :- "+i);
+        }
+        // 3rd Program Output========================================
+        for (int i=1;i<=100;i++){
+            if(obj.findNumber(i)){
+                System.out.println("Even Number :- "+i);
             }else {
-                    System.out.println("Odd Number :- "+i);
-                }
+                System.out.println("Odd Number :- "+i);
             }
         }
     }
