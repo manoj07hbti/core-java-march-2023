@@ -2,7 +2,7 @@ package class_and_object.method_Return_OutputParm;
 
 import java.util.Scanner;
 
-public class Calc_with_Scanner {
+public class Calc_choice_Scanner {
     public int addition(int a, int b){
         int sum = a+b;
         return sum;
@@ -19,7 +19,7 @@ public class Calc_with_Scanner {
         double div = (double)a/b;
         return div;
     }
-    public void checkOperation(String choice,Calc_with_Scanner obj){
+    public void checkOperation(String choice, Calc_choice_Scanner obj){
         Scanner scanner=new Scanner(System.in);
         System.out.println("ENTER THE VALUE OF A : ");
         int a = scanner.nextInt();
@@ -42,7 +42,7 @@ public class Calc_with_Scanner {
 
     public static void main(String[] args) {
 
-        Calc_with_Scanner obj=new Calc_with_Scanner();
+        Calc_choice_Scanner obj=new Calc_choice_Scanner();
         obj.checkOperation("+",obj);
     }
 }
