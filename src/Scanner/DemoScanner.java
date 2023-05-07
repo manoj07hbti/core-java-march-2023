@@ -19,6 +19,7 @@ public class DemoScanner {
         int age = scanner.nextInt();
         System.out.println("You have entered age as " + age);
 
+
         ///    reading decimal value ///      ///
         System.out.println("Please enter your salary: ");
         double salary= scanner.nextDouble();
