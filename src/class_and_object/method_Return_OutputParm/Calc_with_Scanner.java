@@ -21,7 +21,6 @@ public class Calc_with_Scanner {
     }
     public void checkOperation(String choice,Calc_with_Scanner obj){
         Scanner scanner=new Scanner(System.in);
-        choice=scanner.nextLine();
         System.out.println("ENTER THE VALUE OF A : ");
         int a = scanner.nextInt();
         System.out.println("THE VALUE OF A : "+a);
@@ -44,6 +43,6 @@ public class Calc_with_Scanner {
     public static void main(String[] args) {
 
         Calc_with_Scanner obj=new Calc_with_Scanner();
-        obj.checkOperation(choice,obj);
+        obj.checkOperation("+",obj);
     }
 }
