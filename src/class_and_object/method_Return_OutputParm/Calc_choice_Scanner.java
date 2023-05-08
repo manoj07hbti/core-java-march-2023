@@ -8,7 +8,7 @@ public class Calc_choice_Scanner {
         return sum;
     }
     public int subtraction(int a,int b){
-        int sub = a+b;
+        int sub = a-b;
         return sub;
     }
     public int multiplication(int a, int b){
@@ -19,30 +19,34 @@ public class Calc_choice_Scanner {
         double div = (double)a/b;
         return div;
     }
-    public void checkOperation(String choice, Calc_choice_Scanner obj){
+    public void checkOperation(Calc_choice_Scanner obj){
         Scanner scanner=new Scanner(System.in);
+
+        System.out.println("ENTER THE OPERATOR TO PERFORM OPERATION FROM + , - , * , / ");
+        String choice= scanner.nextLine();     //input for operation
+
         System.out.println("ENTER THE VALUE OF A : ");
-        int a = scanner.nextInt();
-        System.out.println("THE VALUE OF A : "+a);
+        int a = scanner.nextInt();       //input for value of A
 
         System.out.println("ENTER THE VALUE OF B : ");
-        int b = scanner.nextInt();
-        System.out.println("THE VALUE OF B : "+b);
+        int b = scanner.nextInt();      //input for value of B
 
-        if(choice=="+"){
-            System.out.println("THE ADDITION OF A AND B IS :"+obj.addition(a,b));
-        }else if(choice=="-"){
-            System.out.println("THE ADDITION OF A AND B IS :" + obj.subtraction(a,b));
-        }else if(choice=="*") {
-            System.out.println("THE MUTIPLICATION OF A AND B IS :" + obj.multiplication(a,b));
+        if(choice.equals("+")){
+            System.out.println("THE ADDITION OF "+a +" AND " +b +" : "+obj.addition(a,b));
+        }else if(choice.equals("-")){
+            System.out.println("THE SUBTRACTION OF "+a +" AND " +b +" : " + obj.subtraction(a,b));
+        }else if(choice.equals("*")) {
+            System.out.println("THE MULTIPLICATION OF "+a +" AND " +b +" : "+ obj.multiplication(a,b));
+        }else if(choice.equals("/")){
+            System.out.println("THE DIVISION OF "+a +"AND" +b +" : "+obj.division(a,b));
         }else{
-            System.out.println("THE DIVISION OF A AND B IS : "+obj.division(a,b));
+            System.out.println("PLEASE ENTER THE CORRECT INPUT");
         }
     }
 
     public static void main(String[] args) {
 
         Calc_choice_Scanner obj=new Calc_choice_Scanner();
-        obj.checkOperation("+",obj);
+        obj.checkOperation(obj);
     }
 }
