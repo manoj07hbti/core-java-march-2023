@@ -57,6 +57,7 @@ public class Calculator_Made_By_Scanner {
                 String new_choice = scanner1.nextLine();
                 if (new_choice.equals("Y")) {
                     flag = false;
+
                 }
             }
         }
