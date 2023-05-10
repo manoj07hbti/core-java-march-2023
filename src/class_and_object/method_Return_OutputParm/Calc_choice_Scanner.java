@@ -20,10 +20,8 @@ public class Calc_choice_Scanner {
         return div;
     }
     public void checkOperation(Calc_choice_Scanner obj){
-        Scanner scanner=new Scanner(System.in);
+        Scanner scanner=new Scanner(System.in); // CREATING OBJECT OF SCANNER
 
-        System.out.println("ENTER THE OPERATOR TO PERFORM OPERATION FROM + , - , * , / ");
-        String choice= scanner.nextLine();     //input for operation
 
         System.out.println("ENTER THE VALUE OF A : ");
         int a = scanner.nextInt();       //input for value of A
@@ -31,8 +29,11 @@ public class Calc_choice_Scanner {
         System.out.println("ENTER THE VALUE OF B : ");
         int b = scanner.nextInt();      //input for value of B
 
+        System.out.println("ENTER THE OPERATOR TO PERFORM OPERATION FROM + , - , * , / ");
+        String choice= scanner.nextLine();     //input for operation
+
         if(choice.equals("+")){
-            System.out.println("THE ADDITION OF "+a +" AND " +b +" : "+obj.addition(a,b));
+            System.out.println("THE ADDITION OF "+a +" AND " +b +" : "+obj.addition(a,b ));
         }else if(choice.equals("-")){
             System.out.println("THE SUBTRACTION OF "+a +" AND " +b +" : " + obj.subtraction(a,b));
         }else if(choice.equals("*")) {
@@ -40,7 +41,7 @@ public class Calc_choice_Scanner {
         }else if(choice.equals("/")){
             System.out.println("THE DIVISION OF "+a +"AND" +b +" : "+obj.division(a,b));
         }else{
-            System.out.println("PLEASE ENTER THE CORRECT INPUT");
+            System.out.println("PLEASE ENTER THE CORRECT INPUT ");
         }
     }
 
