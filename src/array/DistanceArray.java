@@ -26,8 +26,17 @@ public class DistanceArray {
         }while (i< dis.length);
 
         // advance for loop
+
          for (int var:dis) {
-            System.out.println("distance array advance loop: " +var);
+            System.out.println("distance array advance loop: "  + var );
+        }
+
+         // advance loop with index
+
+        i=0;
+        for (int var:dis) {
+            System.out.println("distance array advance loop: " + "at  " + i + " index " + var );
+            i++;
         }
 
     }

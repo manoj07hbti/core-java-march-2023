@@ -21,7 +21,6 @@ public class EvenNum_Divby11 {
             }
             i--; // decrement operator
 
-
         }
     }
 }

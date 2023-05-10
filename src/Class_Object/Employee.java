@@ -3,11 +3,15 @@ package Class_Object;
 public class Employee {
 
     // data member or properties of class..
-    String name;
-    int age;
-    String company;
-    String post;
-    double salary;
+    String name ="RAHUL";
+    int age=30;
+    String company="TCS";
+    String post ="ACCOUNTANT";
+    double salary= 33000;
+
+    public void work(){
+        System.out.println(" Eployee work daily in office");
+    }
 
     public static void main(String []args){
         Employee obj1=new Employee();
