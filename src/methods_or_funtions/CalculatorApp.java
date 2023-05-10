@@ -28,7 +28,7 @@ public class CalculatorApp {
     public static void main(String[] args) {
         CalculatorApp obj=new CalculatorApp();
         Scanner scr=new Scanner(System.in);
-        // create boolean condition for true and false condition
+        //Create boolean condition for true and false condition
         Boolean flag=true;
 
 
