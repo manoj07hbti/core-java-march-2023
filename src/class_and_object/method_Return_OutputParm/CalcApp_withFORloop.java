@@ -27,7 +27,6 @@ public class CalcApp_withFORloop {
         CalcApp_withFORloop obj = new CalcApp_withFORloop();
         Scanner scanner = new Scanner(System.in);
 
-        boolean flag = true;
         for (int i = 1; i > 0; i++) {
             System.out.println("ENTER THE VALUE OF A");
             int a = scanner.nextInt();
