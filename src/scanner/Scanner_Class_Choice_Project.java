@@ -1,4 +1,4 @@
-package methods_or_function;
+package scanner;
 
 import java.util.Scanner;
 
