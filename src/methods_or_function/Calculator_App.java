@@ -49,8 +49,8 @@ public class Calculator_App {
     public static void main(String[] args) {
         Calculator_App obj=new Calculator_App();
         boolean flag=true;
+        Scanner scanner = new Scanner(System.in);
         while (flag=true){
-            Scanner scanner = new Scanner(System.in);
             System.out.println("Enter your Choice:-(Ex:- +,-,*,/) ");
             String choice = scanner.nextLine();
             if (choice.equals("+")){
