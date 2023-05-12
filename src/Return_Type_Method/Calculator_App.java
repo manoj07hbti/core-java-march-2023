@@ -53,9 +53,9 @@ public class Calculator_App {
             } else if (Choice.equals("/")){
                 System.out.println("Div "+obj.div(a,b));
             }
-            System.out.println("run cell yes to exit");
+            System.out.println("y");
             String new_Choice=scanner1.nextLine();
-            if (new_Choice.equals("yes")){
+            if (new_Choice.equals("y")){
                 flag=false;
 
             }
