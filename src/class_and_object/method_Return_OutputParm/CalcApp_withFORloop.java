@@ -48,7 +48,7 @@ public class CalcApp_withFORloop {
                 System.out.println("THE DIVISION OF A AND B : " + obj.division(a, b));
             }
 
-            System.out.println("Do you want to exit the calculator,\nif yes enter Y\nif no press any key");
+            System.out.println("DO YOU WANT TO EXIT THE CALCULATOR ? Y/N");
             Scanner scanner2 = new Scanner(System.in); //
             String newChoice = scanner2.nextLine();
             if (newChoice.equals("Y") || newChoice.equals("y"))
