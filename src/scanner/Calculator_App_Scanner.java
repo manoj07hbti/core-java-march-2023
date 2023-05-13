@@ -50,7 +50,7 @@ public class Calculator_App_Scanner {
     public void choice(Calculator_App_Scanner obj) {
         Scanner scanner1 = new Scanner(System.in);
         boolean flag = true;
-        while (true) {
+        while (flag) {
             System.out.println("Enter your Choice:-(Ex:- +,-,*,/) ");
             String choice = scanner1.nextLine();
             if (choice.equals("+")) {
@@ -63,7 +63,8 @@ public class Calculator_App_Scanner {
                 obj.divide();
             }
             System.out.println("Want to Close Calculator Press Y or Press any key to Continue:- ");
-            String new_choice = scanner1.nextLine();
+            Scanner scanner=new Scanner(System.in);
+            String new_choice = scanner.nextLine();
             if (new_choice.equals("Y")) {
                 flag = false;
             }
