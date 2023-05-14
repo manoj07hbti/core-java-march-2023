@@ -1,4 +1,4 @@
-package weekly_test;
+package weekly_test.Apr_Month;
 
 public class Week_23_Apr_Test {
     //write a code to check any number between 8 to 160 is divisible by 11 and it should not be odd number

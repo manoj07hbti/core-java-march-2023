@@ -1,4 +1,4 @@
-package weekly_test;
+package weekly_test.Apr_Month;
 
 public class Week_23_Apr_Test_2 {
     //write a code to check prime number between 1 to 10================================

@@ -1,4 +1,4 @@
-package weekly_test;
+package weekly_test.Apr_Month;
 
 public class Week_23_Apr_MethodClass {
     //Make the Method & Call Method Project of Prime Number==========================

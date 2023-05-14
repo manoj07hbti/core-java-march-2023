@@ -1,4 +1,4 @@
-package weekly_test;
+package weekly_test.Mar_Month;
 
 public class Programe3 {
     // Write a programe to find given number is prime or not===============================
