@@ -15,6 +15,7 @@ public class ListUsingWhileLoop {
         list.add("we are learning java language");
         list.add("java language is a advance language");
         list.add("436546454");
+
         System.out.println(list.get(0));
         int i=0;
         while (i<list.size()){
