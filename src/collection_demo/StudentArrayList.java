@@ -9,7 +9,7 @@ public class StudentArrayList {
     public  ArrayList<Student> createStudentList(){
 
    // CollectionName <Datatype> objName = new CollectionName<>();
-        ArrayList<Student> students= new ArrayList<>();
+        ArrayList<Student> studentList= new ArrayList<>();
 
         // create data using model class with param constructor
 
@@ -17,15 +17,21 @@ public class StudentArrayList {
         Student student2= new Student(2,"Mukesh","IT");
         Student student3= new Student(3,"Rohit","CS");
 
-        students.add(student1);
-        students.add(student2);
-        students.add(student3);
+        studentList.add(student1);
+        studentList.add(student2);
+        studentList.add(student3);
 
-        return students;
+        return studentList;
     }
 
     public static void main(String[] args) {
         StudentArrayList obj= new StudentArrayList();
+
+        for (int i=0; i<obj.createStudentList().size(); i++){
+
+            System.out.println("Using for loop :"+obj.createStudentList().get(i).getName());
+        }
+
         for (Student var :obj.createStudentList()){
 
             System.out.println("printing Student "+var.getName() +" Roll no "+var.getRoll_no()+" Section: "+var.getSection());
