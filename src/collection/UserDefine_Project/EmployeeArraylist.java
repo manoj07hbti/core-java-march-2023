@@ -27,7 +27,6 @@ public class EmployeeArraylist {
             System.out.println("Company Name := "+var.getCompany_name());
             System.out.println("Designation := "+var.getDesignation());
             System.out.println("Salary := "+var.getSalary());
-
+        }
         }
     }
-}
