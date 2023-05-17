@@ -23,10 +23,10 @@ public class EmployeeArraylist {
     public static void main(String[] args) {
         EmployeeArraylist obj=new EmployeeArraylist();
         for (Employee var: obj.employeeList()){
-            System.out.println("Printing Employee := "+var.getName());
-            System.out.println("Printing Employee := "+var.getCompany_name());
-            System.out.println("Printing Employee := "+var.getDesignation());
-            System.out.println("Printing Employee := "+var.getSalary());
+            System.out.println("Employee Name:= "+var.getName());
+            System.out.println("Company Name := "+var.getCompany_name());
+            System.out.println("Designation := "+var.getDesignation());
+            System.out.println("Salary := "+var.getSalary());
 
         }
     }
