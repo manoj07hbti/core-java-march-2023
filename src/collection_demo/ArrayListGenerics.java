@@ -11,6 +11,7 @@ public class ArrayListGenerics {
         ArrayList <String> stringArrayList= new ArrayList<>();
 
         stringArrayList.add("Java");
+        stringArrayList.add("Java");
         stringArrayList.add("Spring");
         stringArrayList.add("Spring Boot");
         //stringArrayList.add(22); // compile time error
