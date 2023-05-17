@@ -28,7 +28,7 @@ public class GenerictypeDoubleArrayList {
         for (i=0;i<output.size();i++){
             System.out.println("for loop " +output.get(i));
         }
-        // while loop
+        // while loop apply
         i=0;
         while (i<output.size()){
             System.out.println(" while loop " +output.get(i));
