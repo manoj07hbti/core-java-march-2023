@@ -27,6 +27,7 @@ public  ArrayList <Double> doubleList(){
 
     public static void main(String[] args) {
         ArrayGenericsList obj=new ArrayGenericsList();
+        ArrayList<String> output= obj.StringList();
 for(String var :obj.StringList()){
     System.out.println("print sting value: "+var);
     }
@@ -35,6 +36,6 @@ for(Integer var: obj.integerList()){
    }
 for(Double var: obj.doubleList()){
     System.out.println("print double value: "+var);
-   }
+        }
     }
 }
