@@ -8,10 +8,14 @@ public class DemoHashSet {
 // CollectionName <Datatype> objName = new CollectionName<>();
 
         HashSet <String> course= new HashSet<>();
-        course.add("Java");
+        String s1="Java";
+        System.out.println("Hashcode of s1: "+s1.hashCode());
+        course.add(s1);
         course.add("Spring");
         course.add("Spring Boot");
-        course.add("Java");
+        String s2="Java";
+        course.add(s2);
+        System.out.println("Hashcode of s2: "+s2.hashCode());
         course.add("Spring");
         course.add("Spring Boot");
 
