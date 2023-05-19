@@ -14,4 +14,36 @@ public class Employee_Arraylist_Genrics {
         stringArraylist.add("Ritesh");
         return stringArraylist;
     }
+
+    public ArrayList<Integer> integerArrayList() {
+        ArrayList<Integer> integerArrayList = new ArrayList<>();
+        integerArrayList.add(18);
+        integerArrayList.add(23);
+        integerArrayList.add(25);
+        return integerArrayList;
+    }
+
+    public ArrayList<Double> doubleArrayList() {
+        ArrayList<Double> doubleArrayList = new ArrayList<>();
+        doubleArrayList.add(18900.25);
+        doubleArrayList.add(22500.72);
+        doubleArrayList.add(23450.33);
+        return doubleArrayList;
+    }
+
+
+
+    public static void main(String[] args) {
+        Employee_Arraylist_Genrics obj = new Employee_Arraylist_Genrics();
+        for (String var : obj.stringArraylist()) {
+            System.out.println("Name:- " + var);
+        }
+
+        for (Integer var : obj.integerArrayList()){
+            System.out.println("Age:- "+var);
+        }
+        for (Double var : obj.doubleArrayList()){
+            System.out.println("Salary:- "+var);
+        }
+    }
 }
