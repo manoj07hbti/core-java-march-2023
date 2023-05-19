@@ -41,6 +41,8 @@ public class Collection_demo {
             System.out.println("printing using advance for loop " +var);
         }
 
+        //deleting the index
+
         list.remove(7);
         for(int i=0;i<list.size();i++){
             System.out.println("printing elements after remove "+list.get(i) +" on index " +i);
