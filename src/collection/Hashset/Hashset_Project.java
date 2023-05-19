@@ -13,6 +13,7 @@ public class Hashset_Project {
         studentName.add("Ritesh");
         studentName.add("Rohit");
         studentName.add("Ritesh");
+        System.out.println("Data Size:- "+studentName.size());
 
         for (String var:studentName){
             System.out.println("Name:- "+var);
@@ -25,6 +26,7 @@ public class Hashset_Project {
        rollNumber.add(15);
         rollNumber.add(12);
         rollNumber.add(15);
+        System.out.println("Data Size:- "+rollNumber.size());
        for (Integer var:rollNumber){
            System.out.println("Roll No:- "+var);
        }
@@ -36,6 +38,7 @@ public class Hashset_Project {
         percentage.add(88.32);
         percentage.add(78.23);
         percentage.add(88.32);
+        System.out.println("Data Size:- "+percentage.size());
         for (Double var:percentage){
             System.out.println("Percentage:- "+var);
         }
