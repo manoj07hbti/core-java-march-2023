@@ -1,5 +1,7 @@
 package model;
 
+import java.util.Objects;
+
 public class Student {
 
     int roll_no;
@@ -13,6 +15,22 @@ public class Student {
         this.name = name;
         this.section = section;
     }
+
+    // hashcode and equals
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Student student = (Student) o;
+        return roll_no == student.roll_no && Objects.equals(name, student.name) && Objects.equals(section, student.section);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(roll_no, name, section);
+    }
+
 
     // getter setter
 
