@@ -15,6 +15,7 @@ public class Demo_Hashset {
             course.add("Wendy");
             course.add("Ram");
 
+
             System.out.println("printing size"+course.size());
 
             for (String var : course) {
