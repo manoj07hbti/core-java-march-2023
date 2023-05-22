@@ -13,14 +13,15 @@ public class EmployeeHashset {
         Employee employee3=new Employee("ANIL","MICROSOFT",80868.80);
         Employee employee4=new Employee("RIYA","INFOSYS",78768.77);
         Employee employee5=new Employee("KOMAL","HCL",87068.50);
+        Employee employee6=new Employee("KAMAL","COGNIZANT",89768.77);
 
         employees.add(employee1);
         employees.add(employee2);
         employees.add(employee3);
         employees.add(employee4);
         employees.add(employee5);
+        employees.add(employee6);
 
-        System.out.println("count " + employees.hashCode());
 
         // apply for each loop
         for (Employee var:employees){

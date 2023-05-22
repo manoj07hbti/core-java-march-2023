@@ -1,5 +1,7 @@
 package model;
 
+import java.util.Objects;
+
 public class Employee {
     String name;
     String company;
@@ -11,6 +13,22 @@ public class Employee {
         this.company = company;
         this.salary = salary;
     }
+    // OVERRIDE HASHCODE AND EQUAL METHOD
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Employee employee = (Employee) o;
+        return name.equals(employee.name) && company.equals(employee.company) && salary.equals(employee.salary);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(name, company, salary);
+    }
+
+
     // meke getter and seeter
 
     public String getName() {
