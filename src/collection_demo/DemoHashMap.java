@@ -20,7 +20,7 @@ public class DemoHashMap {
 
         // reading value from course : map.get(KEY);
 
-        System.out.println("Printing Map Data "+course.get(1));
+        System.out.println("Printing Map Data of key "+ "1" + " "+course.get(1));
 
         // how to iterate or traverse hashMap  map.keySet();
 
