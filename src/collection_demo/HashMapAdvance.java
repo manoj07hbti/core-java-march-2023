@@ -60,9 +60,9 @@ public class HashMapAdvance {
 
             }
             if (var.equals("JNU")) {
-                ArrayList<Student> jnuClg = stringArrayListHashMap.get(var);
 
-                for (Student std : jnuClg) {
+
+                for (Student std :  stringArrayListHashMap.get(var)) {
 
                     System.out.println("Printing JNU Admission List: " + std.getName() + " " + std.getRoll_no() + " " + std.getSection());
                 }
