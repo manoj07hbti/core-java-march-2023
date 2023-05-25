@@ -1,6 +1,7 @@
 package collection.Hash_Map;
 
 import java.util.HashMap;
+import java.util.Set;
 
 public class HashMap_Project {
 
@@ -16,6 +17,19 @@ public class HashMap_Project {
 
         //Printing value:- Integer & String  ==========================
         System.out.println("Printing Hashmap Data:- "+student.get(2));
+
+        //Applying Advance for loop in HashMap Important======================
+
+        Set<Integer> keys=student.keySet();
+        for (Integer var:keys){
+            System.out.println("Printing Advance Loop Hashmap List:- "+student.get(var));
+        }
+
+        //Remove method using to remove data from list=================
+        student.remove(2);
+        for (Integer var:keys){
+            System.out.println("After remove Printing Hashmap List:- "+student.get(var));
+        }
     }
 
     public static void main(String[] args) {
