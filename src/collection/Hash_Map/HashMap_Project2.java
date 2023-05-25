@@ -9,12 +9,12 @@ public class HashMap_Project2 {
 
         HashMap<Double,String> student=new HashMap<>();
 
-        //Adding value:- Integer & String  ==========================
+        //Adding value:- Double & String  ==========================
         student.put(1.0,"Raman");
         student.put(2.0,"Ritu");
         student.put(3.0,"Rishabh");
 
-        //Printing value:- Integer & String  ==========================
+        //Printing value:- Double & String  ==========================
         System.out.println("Printing Hashmap Data:- "+student.get(2.0));
 
         //Applying Advance for loop in HashMap Important======================
