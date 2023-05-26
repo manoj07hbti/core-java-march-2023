@@ -3,7 +3,7 @@ package Collection_Assignment;
 import java.util.HashMap;
 import java.util.Set;
 
-public class Hashmap_String_key_String_value {
+public class Hashmap_String_key_String_value_coolection {
     public void cities(){
         HashMap<String, String> CitiesHashmap = new HashMap<>();
 
@@ -20,7 +20,7 @@ public class Hashmap_String_key_String_value {
         }
     }
     public static void main(String[] args){
-        Hashmap_String_key_String_value obj=new Hashmap_String_key_String_value();
+        Hashmap_String_key_String_value_coolection obj=new Hashmap_String_key_String_value_coolection();
         obj.cities();
     }
 }
