@@ -87,13 +87,18 @@ public class Corporate_Employee_HashMap {
         InfosysCompany.add(employee29);
         InfosysCompany.add(employee30);
 
-        employeeArraylistHashmap.put("IBM Company",IBMCompany);
-        employeeArraylistHashmap.put("TCS Company",TCSCompany);
-        employeeArraylistHashmap.put("Infosys Company",InfosysCompany);
+        employeeArraylistHashmap.put("IBM",IBMCompany);
+        employeeArraylistHashmap.put("TCS",TCSCompany);
+        employeeArraylistHashmap.put("Infosys",InfosysCompany);
 
         for (String var:employeeArraylistHashmap.keySet()){
-
+            if (var.equals("IBM")){
+                ArrayList<Corporate_Employee>IBMData= employeeArraylistHashmap.get(var);
+              for (Corporate_Employee emp:IBMData){
+                  System.out.println("Printing Data:- "+emp.getEmployeeId()+ " " +emp.getEmployeeName()+
+                          " " +emp.getCompanyName()+ " " +emp.getSalary());
+              }
+            }
             }
         }
-
     }
