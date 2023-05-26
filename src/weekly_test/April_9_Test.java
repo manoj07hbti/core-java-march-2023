@@ -19,8 +19,8 @@ public class April_9_Test {
         for(int i=123;i<=234;i++){
             if(i%5==0){
                 System.out.println(+i +" DIVISIBLE BY 5");
-        }}
-
+        }
+        }
     }
 }
 
