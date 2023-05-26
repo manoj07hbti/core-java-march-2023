@@ -18,6 +18,10 @@ public class HashMapStringKeyStringValue {
             System.out.println("printing hashmap using loop: "+stringHashMap.get(var));
         }
         // map.remove(key);
+        stringHashMap.remove("a");
+        for (String var : stringHashMap.keySet()) {
+            System.out.println("printing hashmap using loop: "+stringHashMap.get(var));
+        }
 
         }
 
