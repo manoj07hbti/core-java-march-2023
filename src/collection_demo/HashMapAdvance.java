@@ -50,11 +50,14 @@ public class HashMapAdvance {
         for (String var : stringArrayListHashMap.keySet()) {
 
             if (var.equals("AGRA COLLEGE")) {
-                ArrayList<Student> jnuClg = stringArrayListHashMap.get(var);
+                ArrayList<Student> studentArrayList = stringArrayListHashMap.get(var);
 
-                for (Student std : jnuClg) {
+                for (Student std : studentArrayList) {
 
-                    System.out.println("Printing AGRA Admission List: " + std.getName() + " " + std.getRoll_no() + " " + std.getSection());
+                    if (std.getSection().equals("CS")) {
+                        System.out.println("Printing AGRA Admission List: " + std.getName() + " " + std.getRoll_no() + " " + std.getSection());
+
+                    }
                 }
 
 
