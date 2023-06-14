@@ -91,13 +91,30 @@ public class Corporate_Employee_HashMap {
         employeeArraylistHashmap.put("TCS",TCSCompany);
         employeeArraylistHashmap.put("Infosys",InfosysCompany);
 
+        //This loop and method using for collect the all data in keys===========================
+
         for (String var:employeeArraylistHashmap.keySet()){
             if (var.equals("IBM")){
-                ArrayList<Corporate_Employee>IBMData= employeeArraylistHashmap.get(var);
-              for (Corporate_Employee emp:IBMData){
-                  System.out.println("Printing Data:- "+emp.getEmployeeId()+ " " +emp.getEmployeeName()+
-                          " " +emp.getCompanyName()+ " " +emp.getSalary());
+                ArrayList<Corporate_Employee> IBMData = employeeArraylistHashmap.get(var);
+
+                for (Corporate_Employee cop:IBMData){
+
+                  if(cop.getSalary()>45000){
+                      System.out.println("Printing IBM Data:- "+cop.getEmployeeId()+ " " +cop.getEmployeeName()+
+                              " " +cop.getCompanyName()+ " " +cop.getSalary());
+                  }
+               }
               }
+            if (var.equals("Infosys")){
+                ArrayList<Corporate_Employee> IBMData = employeeArraylistHashmap.get(var);
+
+                for (Corporate_Employee cop:IBMData){
+
+                    if(cop.getSalary()<45000){
+                        System.out.println("Printing Infosys Data:- "+cop.getEmployeeId()+ " " +cop.getEmployeeName()+
+                                " " +cop.getCompanyName()+ " " +cop.getSalary());
+                    }
+                }
             }
             }
         }
