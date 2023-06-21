@@ -1,6 +1,7 @@
 package nestedif_2;
 
 public class Nested_If_Revise {
+
     public static void main(String[] args) {
 
         int age;
